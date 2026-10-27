@@ -269,9 +269,9 @@ print(result)
                 if isinstance(res, pd.DataFrame):
                     st.subheader("📊 Result DataFrame")
                     st.dataframe(res, use_container_width=True)
-        except Exception as e:
-            st.error(f"Error during execution:
-{traceback.format_exc()}")
+    except Exception as e:
+            tb_str = traceback.format_exc()
+            st.error("Error during execution:\n" + tb_str)
         finally:
             sys.stdout = old_stdout
 
