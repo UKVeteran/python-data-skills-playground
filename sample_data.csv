@@ -1,0 +1,11 @@
+employee_id,name,department,age,salary,experience_years,performance_score,remote
+1,Alice Johnson,Engineering,29,85000,4,4.5,True
+2,Bob Smith,Marketing,34,65000,7,3.8,False
+3,Charlie Brown,Engineering,41,115000,12,4.9,True
+4,Diana Prince,Product,28,78000,3,4.2,True
+5,Ethan Hunt,Sales,45,95000,15,3.9,False
+6,Fiona Gallagher,Marketing,32,62000,5,4.1,True
+7,George Washington,Engineering,50,130000,20,4.8,False
+8,Hannah Abbott,Product,26,71000,2,4.0,True
+9,Ian Malcolm,Research,38,105000,11,4.7,False
+10,Julia Roberts,Sales,39,88000,10,4.3,True
