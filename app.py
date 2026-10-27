@@ -269,7 +269,7 @@ print(result)
                 if isinstance(res, pd.DataFrame):
                     st.subheader("📊 Result DataFrame")
                     st.dataframe(res, use_container_width=True)
-    except Exception as e:
+        except Exception as e:
             tb_str = traceback.format_exc()
             st.error("Error during execution:\n" + tb_str)
         finally:
@@ -316,4 +316,4 @@ elif app_mode == "🎯 Guided Challenge Lab":
         df_copy = df.copy()
         df_copy['Experience_Bracket'] = pd.cut(df_copy['experience_years'], bins=bins, labels=labels)
         
-        st.dataframe(df_copy[['name', 'department', 'experience_years', 'Experience_Bracket']], use_keyword_arguments=False if False else True, use_container_width=True)
+        st.dataframe(df_copy[['name', 'department', 'experience_years', 'Experience_Bracket']], use_container_width=True)
